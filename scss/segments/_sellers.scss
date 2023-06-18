@@ -1,0 +1,76 @@
+.sellers {
+  height: 1200px;
+  text-align: center;
+  padding-top: 60px;
+  box-sizing: border-box;
+  padding-bottom: 190px;
+
+  &__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-bottom: 50px;
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+
+    &_img {
+      width: 300px;
+      height: 430px;
+    }
+  }
+
+  &__cards_cell {
+    height: 590px;
+    width: 320px;
+
+    &_text {
+      font-weight: 700;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: #000000;
+      margin-top: 27px;
+    }
+
+    &_price {
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 20px;
+      color: #000000;
+      text-align: center;
+      margin-top: 17px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__add_card {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+  }
+
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 26px;
+  margin-top: 0;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+  margin-bottom: 50px;
+}

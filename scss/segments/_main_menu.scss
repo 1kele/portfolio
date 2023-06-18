@@ -1,0 +1,28 @@
+.main_menu {
+  width: 100%;
+  height: 554px;
+  background: #F0EFEB;
+  padding-top: 10px;
+  box-sizing: border-box;
+
+  &__main_text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #000000;
+    margin-top: 0;
+    padding-top: 90px;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 42px;
+  }
+}
+
+.btn {
+  margin-top: 26px;
+}
